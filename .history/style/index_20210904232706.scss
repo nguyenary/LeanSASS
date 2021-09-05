@@ -1,0 +1,38 @@
+$main-color: red;
+@import 'header';
+@import 'mixin';
+
+section {
+    background-color: $main-color;
+}
+
+section button {
+    @include buttonStyle();
+}
+
+%buttonStyle {
+    background: $main-color;
+    border: 0;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.button1 {
+    @extend %buttonStyle;
+    font-size: 12px;
+}
+
+.button2 {
+    @extend %buttonStyle;
+}
+
+footer {
+    button {
+        @include buttonStyle();
+        background: green;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

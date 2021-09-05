@@ -1,0 +1,15 @@
+$main-color: red;
+@import 'header';
+@import 'mixin';
+
+section {
+    background-color: $main-color;
+}
+
+section button {
+    @include buttonStyle();
+}
+
+footer button {
+    @include buttonStyle();
+}

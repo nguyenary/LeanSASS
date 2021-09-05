@@ -1,0 +1,54 @@
+header {
+  background-color: red;
+}
+
+section {
+  background-color: red;
+}
+
+section button {
+  background: red;
+  border: 0;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.button1 {
+  background: red;
+  border: 0;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.button1 {
+  font-size: 12px;
+}
+
+footer button, .button2 button {
+  background: red;
+  border: 0;
+  padding: 5px 10px;
+  color: #fff;
+  background: green;
+}
+
+footer p, .button2 p {
+  font-size: 20px;
+}
+
+.item-1 {
+  left: 20px;
+}
+
+.item-2 {
+  left: 40px;
+}
+
+.item-3 {
+  left: 60px;
+}
+
+.item-4 {
+  left: 80px;
+}
+/*# sourceMappingURL=index.css.map */

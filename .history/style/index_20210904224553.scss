@@ -1,0 +1,6 @@
+$main-color: orange;
+@import 'header';
+
+section {
+    background-color: $main-color;
+}
