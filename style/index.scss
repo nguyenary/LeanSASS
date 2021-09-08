@@ -4,6 +4,14 @@
 // Khía niệm vòng lặp
 // Khía niệm nested
 
+// Bootstrap
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+@import "bootstrap/scss/bootstrap-grid.scss";
+
+// Custom
 @import 'variables';
 @import 'header';
 @import 'mixin';
